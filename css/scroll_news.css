@@ -1,0 +1,83 @@
+html {
+ background: rgb(255, 255, 255) none repeat; 
+ color: rgb(0, 0, 0); 
+}
+body {
+ border: 0 none ; 
+ margin: 10px 0pt 0pt; 
+ padding: 0pt; 
+ background: rgb(255, 255, 255) none repeat; 
+ text-align: center; 
+ font-family: verdana,arial,sans-serif; 
+ font-size: .76em;
+ height: 1.41em; 
+ line-height: 1.41em;
+ color: rgb(0, 0, 0); 
+}
+a, a:visited {
+ color: rgb(210, 105, 30);
+ text-decoration: none; 
+}
+a:hover {
+ text-decoration: underline; 
+}
+#info {
+ margin: 10px auto; 
+ background: rgb(255, 255, 255) none repeat; 
+ width: 650px; 
+ text-align: left; 
+}
+.tableone {
+ margin: 0pt auto; 
+ width: 650px; 
+ border-collapse: collapse; 
+}
+.tabletwo {
+ width: 620px; 
+ border-collapse: collapse;
+}
+.th1 { width: 20px; text-align:center; }
+.th2 { width: 100px; }
+.th3 { width: 500px; }
+.td1 { width: 20px; text-align:center; }
+.td2 { width: 100px; }
+.td3 { width: 500px; }
+.tableone {
+ border: 1px solid rgb(255, 255, 255); 
+ background: rgb(115, 203, 242) none repeat;  
+ color: rgb(255, 255, 255); 
+}
+.tableone td {
+ border: 1px solid rgb(255, 255, 255); 
+ color: rgb(255, 255, 255); 
+}
+.tableone tbody {
+ background: rgb(238, 238, 238) none repeat;  
+ color: rgb(0, 0, 0); 
+}
+.tableone caption {
+ margin: 0 auto;
+ padding: 100px auto;
+ background: rgb(255, 255, 255) none repeat; 
+ color: rgb(17, 136, 255);
+ font-family: helvetica, sans-serif;
+ font-size: 2em;
+ font-weight: bold; 
+ height: 2em;
+ line-height: 2em;
+}
+.tabletwo td {
+ background: rgb(238, 238, 238) none repeat;  
+ color: rgb(0, 0, 0); 
+}
+.tableone th, .tabletwo th {
+ text-align: left; 
+}
+.tabletwo tr.dk td {
+ background: rgb(221, 221, 221) none repeat;  
+ color: rgb(0, 0, 0); 
+}
+.innerb {
+ overflow: auto; 
+ height: 20.7em; 
+}

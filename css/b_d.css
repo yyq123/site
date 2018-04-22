@@ -1,0 +1,9 @@
+body {
+  background: #000;
+}
+div#links {
+  width:555px;
+	margin: 50px auto;
+	padding: 10px;
+	border: solid #4a4a4a 2px;
+}
