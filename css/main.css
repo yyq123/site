@@ -40,12 +40,13 @@ a:hover, a:active {
 /* specific divs */
 #container { 
 	width: 756px;
-	padding: 0px;  
-	margin: 0px auto; 
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
 	}
 
 #header img {
-  border-bottom: solid 2px #46B8F4;
+/*  border-bottom: solid 2px #46B8F4; */
 }
 
 /*==================Nav===============*/

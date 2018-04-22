@@ -1,0 +1,103 @@
+body {
+background-color: #e1ddd9;
+font-size: 13px;
+font-family: "ËÎÌו", Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0px;
+margin:0px;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active { 
+background-color: #fff;
+color: #4682B4; 
+text-decoration: none;
+}
+
+h1 {
+background-color: transparent;
+color: #fff;
+font-size: 31px;
+font-weight: bold;
+height: 100px;
+line-height: 100px;
+padding-left: 10px;
+margin:0px;}
+
+h2 {
+font-size: 23px;
+padding: 10px;
+margin: 0; }
+
+p{
+padding: 5px 10px;
+margin: 0;
+}
+
+/* ----------container to center the layout-------------- */
+#container {
+width: 760px;
+margin: 10px auto;
+background-color: #C5DCEA;/*#E6F4FF;*/
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+height: 100px;
+background: url('feet760.jpg') top left;
+text-align: left;
+padding: 0px;
+margin: 0px;
+}
+
+/* -----------------content--------------------- */
+#content {
+background-color: #fff;
+padding: 0px;
+margin-left: 235px;
+margin-right: 0px;
+}
+#content p { text-indent: 2em; line-height: 1.35em;}
+#content li { margin-right: 10px; line-height: 1.35em;}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 235px;
+margin: 0px;
+padding: 10px 0;
+}
+#left p{
+padding: 0 8px;
+margin: 0;
+line-height: 25px;
+}
+#left a,a:link { background-color: #C5DCEA; display: block; }
+#left a:hover { background-color: #fff; font-weight: normal; border-right: 10px solid; }
+#left a.curlink {color: #564B47;}
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+margin: 0;
+padding: 0;
+text-align: right;
+background-color: #7FA1C6; 
+}
+#footer address {
+padding: 5px;
+text-align: right; 
+}
+#footer a:link,#footer a:visited {
+display: inline;
+background-color: #7FA1C6;
+color: #fff;
+font-weight: normal;
+}
+#footer a:hover,#footer a:active {
+display: inline;
+background-color: #7FA1C6;
+color: #fff;
+}
