@@ -4,7 +4,12 @@ body {
 	font: 8pt/16pt georgia; 
 	color: #555753; 
 	background: #000; 
-	margin: 0px; 
+	margin: 0px;
+	background-image: url(../img/logo-yyq-bw.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 30%;
 	}
 
 p { 
@@ -43,6 +48,7 @@ a:hover, a:active {
 	padding: 0px;
 	margin: 0px auto;
 	text-align: center;
+	vertical-align: middle;
 	}
 
 #header img {
